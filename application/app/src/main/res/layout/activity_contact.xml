@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="70dp"
+    android:layout_margin="20dp"
+    tools:context=".ui.ContactActivity">
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Welcome"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/Dark_green"
+
+    />
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="@string/Add"
+        android:backgroundTint="@color/Dark_green"
+        android:textColor="@color/baige"
+        />
+    <Button
+        android:id="@+id/btnDisplay"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="@string/display"
+        android:backgroundTint="@color/Dark_green"
+        android:textColor="@color/baige"
+        />
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="@string/logout"
+        android:backgroundTint="@color/Dark_green"
+        android:textColor="@color/baige"
+        />
+
+</LinearLayout>

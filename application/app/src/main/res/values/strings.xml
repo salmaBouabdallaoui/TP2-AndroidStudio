@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">application</string>
+    <string name="username">Username</string>
+    <string name="password">password</string>
+    <string name="login">login</string>
+    <string name="logout">Logout</string>
+    <string name="display">Display list</string>
+    <string name="Add">Add new contact</string>
+    <string name="Welcome">Welcome Salma</string>
+    <string name="name">name</string>
+    <string name="Addtv">Add a new contact</string>
+    <string name="phone">phone</string>
+    <string name="submit">submit</string>
+    <string name="detele">delete</string>
+    <string name="back">back</string>
+    <string name="backtolist">Back to list</string>
+    <string name="modify">modify</string>
+</resources>
