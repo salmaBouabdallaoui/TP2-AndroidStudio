@@ -6,4 +6,11 @@
     </style>
 
     <style name="Theme.Estonews" parent="Base.Theme.Estonews" />
+
+    <!-- Splash Screen Theme -->
+    <style name="Theme.Estonews.Splash" parent="Theme.Estonews">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@color/splash_background</item>
+        <item name="android:statusBarColor">@color/splash_background</item>
+    </style>
 </resources>
